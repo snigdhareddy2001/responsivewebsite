@@ -1,0 +1,797 @@
+<!-- Main navigation -->
+    <!DOCTYPE html>
+    <html>
+    <head> 
+        <title>career counselling</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/js/mdb.min.js"></script>
+    </head>
+    <body>
+
+        <style type="text/css">
+
+            /* Required for full background image */
+
+            html,
+            body,
+            header,
+            #intro-section {
+                height: 100%;
+            }
+
+            @media (max-width: 740px) {
+                html,
+                body,
+                header,
+                #intro-section {
+                    height: 100vh;
+                }
+            }
+
+            .top-nav-collapse, .page-footer {
+                background-color: #563e91 !important;
+            }
+            
+            .navbar:not(.top-nav-collapse) {
+                background: transparent !important;
+            }
+
+            @media (max-width: 991px) {
+                .navbar:not(.top-nav-collapse) {
+                    background: #563e91 !important;
+                }
+            }
+
+
+                 
+
+
+                      
+            .rgba-gradient {
+                background: rgba(35, 7, 77, 0.6);
+                /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+                /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));
+                /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+
+            .img-gradient:after {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                display: inline-block;
+                /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 66, 37, 0.5)), color-stop(100%, rgba(0, 47, 75, 0.5)));
+                /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+                /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+                /* Opera 11.10+ */
+                /* IE10+ */
+                background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 47, 75, 0.5)), to(rgba(220, 66, 37, 0.5)));
+                background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+                /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+                /* IE6-9 */
+            }
+
+            img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block; float: left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 304px;
+}
+.gallery_box li:nth-child(odd) {
+    height: 438px; 
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+
+        </style>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">liveinGROWTH</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#intro">Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-offset="90">what after 10th?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#science" data-offset="90">science</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#commerce" data-offset="90">commerce</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#arts" data-offset="90">arts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery" data-offset="90">choose wisely</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-offset="90">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav">
+                        ALLOW YOUR PASSION TO BECOME YOUR PURPOSE
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div id="intro-section" class="view">
+            <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline
+            autoplay muted loop>
+            <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">
+            </video>
+            
+            <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+                <!-- Content -->
+                <div class="container px-md-3 px-sm-0">
+                    <!--Grid row-->
+                    <div class="row wow fadeIn">
+                        <!--Grid column-->
+                        <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
+                            <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">liveinGROWTH</h3>
+                            <hr class="hr-light my-4 w-75">
+                            <h4 class="subtext-header mt-2 mb-4"> THE ULTIMATE CAREER COOUNSELLING WEBSITE</h4>
+                            <a href="#!" class="btn btn-rounded btn-outline-white">
+                                <i class="fa fa-home"></i> GET TO KNOW
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </header>
+
+    
+    <main>
+
+        <!--Section: about-->
+        <section id="about" class="py-5">
+
+            <!-- Container -->
+            <div class="container">
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold text-center mb-5">WHAT AFTER 10TH?</h2>
+                <!-- Section description -->
+                <p class="lead grey-text text-center w-responsive mx-auto mb-5">There are so many disciplines where you can go after the 10th Class like Engineering, Management, Design, Hotel Management and Tourism, Fashion Design, Medical Laboratory Sciences, Architecture. The most important factor to select the discipline is your interest.</p>
+
+                
+                  <div class="row">
+
+                    <div class="col-lg-5 text-center text-lg-left">
+
+                        <img src="science1.png" alt="Sample image" width="300" height="300">
+                     
+                    
+                     
+
+
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-7">
+
+                        
+                        <div class="row mb-3">
+
+                            
+                            <div class="col-1">
+                                <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                            </div>
+                            
+
+                        
+                            <div class="col-xl-10 col-md-11 col-10">
+                                <h5 class="font-weight-bold mb-3">SCIENCE</h5>
+                                <p class="grey-text">Science is the most popular and favourite career option for the majority of the parents and students.   
+                                • Science stream offers many lucrative career options such as engineering, medical, IT and you can even opt for research roles.
+                                • The best advantage of taking science stream is, it keeps your options open. You might switch from science to commerce or science to arts. But it is not possible to do the other way around.
+                                •Taking science stream equips you with excellent problem-solving abilities. 
+                                • Science and math offer a flexible foundation which enables students to accomplish highly respected and well-paid jobs.
+                                 • Science is fun, amazing and fascinating. As Edward Teller rightly said
+                                   “The science of today is the technology of tomorrow.”</p>
+                            </div>
+                            
+
+                    
+                      <div class="row">
+
+
+                           <div class="col-lg-5 text-center text-lg-left">
+
+                                 <img src="arts1.png" alt="Sample image" width="300" height="300">
+
+                              </div>
+
+
+                              <div class="col-lg-7">
+
+
+                                <div class="row mb-3">
+
+                                    <div class="col-1">
+                                
+                                <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-xl-10 col-md-11 col-10"  >
+                                <h5 class="font-weight-bold mb-3">ARTS</h5>
+                                <p class="grey-text">If you are a student who is creative and wants to dive deep into humanity, then arts is the stream for you. 
+                                There are multiple options available for Arts stream after 10th class. If you have any confusion you can get your career counselling done. A career counsellor will provide you with proper career guidance and guide you in the right direction. 
+                                These are the few good career options which you can choose after 10th class.</p>
+                            </div>
+                            
+                                </div>
+                                  <!-- Grid column -->
+                            
+                                  
+                              </div>
+
+                          
+
+                      </div>
+
+                          
+
+
+                        
+                            
+                        
+                        
+
+                      <div class="row">
+                             <div class="col-lg-5 text-center text-lg-left">
+
+                                  <img src="commerce1.png" alt="Sample image" width="300" height="300">
+                     
+                              </div>
+                         <div class="col-lg-7">
+                                 
+                              <div class="row mb-3">
+                                  
+
+                                       <div class="col-1">
+                                
+                                             <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                                       </div>
+
+
+
+                          <div class="col-xl-10 col-md-11 col-10">
+                                            <h5 class="font-weight-bold mb-3">COMMERCE</h5>
+                                <p class="grey-text mb-0">If you have an affinity for numbers, business, economics then commerce is the stream for you. 
+                                If you want to shape your career in economics and business world, then commerce is the right career for you. 
+                                There are a number of options available for commerce stream after 10th class. If you have any doubts regarding whether to opt for commerce stream you can choose the smartest way by getting your career counselling done from an expert. Proper career guidance after 10th class is extremely necessary for a hassle-free career. Edumilestones career assessment is considered to be the best by the industry experts. Their career assessment is tested on statistical methodologies and provides accurate and reliable results. </p>
+                         </div>
+                                       
+
+                              </div>
+
+
+
+
+
+                         </div>
+
+
+
+                          
+                      </div>
+            
+
+        </section>
+
+
+        
+        <section id="science" class="text-center py-5" style="background-color: #eee;">
+
+            
+            <div class="container">
+
+        5">
+                <h2 class="h1-responsive font-weight-bold mb-5">SCIENCE</h2>
+                
+                <p class="grey-text w-responsive mx-auto mb-5" style="display: inline-block;">Science is a vast field and concerns almost everything that our eyes can see or cannot see. Everything in the universe can be studied under the field of science. Talking at a basic educational level, science can be divided into three broad subjects – Physics, Chemistry and Biology.
+                In this stream, it is mandatory to study english,physics,chemistry. you are free to choose amongst biology, maths,computer science also depending on the board you opt for. </p>
+                </div>
+
+                
+                <div class="row text-center">
+
+                    
+                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                    
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="maths1.png" alt="MATHEMATICS" width="400" height="300">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <div class="m1">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;">MATHEMATICS</h4>
+                            <p class="grey-text">Mathematics is a science of numbers and is often the most hated subject for students, and sometimes the most loved with use in money transactions and applications even in architecture, art, engineering, and sports. As a subject, Math focuses on the concepts of quantity, change, structure, and space.
+
+                            At a Class 11-12 level, you would learn about the principles of underlying processes and skills, identify the flow of reason while solving a problem or proving a result, and learn how to apply acquired skills to solve problems by more than one method. If you pursue the Medical (PCB) stream, you can also take on Mathematics as an optional subject.
+                            </p>
+                           
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="bio1.png" alt="BIOLOGY" width="400" height="300">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="b1">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;">BIOLOGY</h4>
+                            <p class="grey-text">The term ‘Biology’ is derived from the Greek language, with ‘bios’ meaning life and ‘logos’ meaning study, literally translating into the study of life forms. And that’s exactly what biology is. Biology studies living organisms – plants and animals – including facets such as their physical structures, physiological mechanisms, chemical processes, molecular interactions, and development and evolution.
+
+                            The subject of Biology at the Class 11-12 level focuses on providing a firm conceptual basis while also connecting the study of the subject with real-life technology, environment, agriculture, health, and industry.
+                            </p>
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-4 col-md-6">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="scienceoptions1.png" alt="COMPUTER SCIENCE" width="400" height="300" >
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;">OPTIONAL SUBJECTS</h4>
+                            <p class="grey-text">1)COMPUTER SCIENCE
+                                                 2)INFORMATION PRACTICES
+                                                 3)PHYSICAL EDUCATION
+                                                 4)ECONOMICS
+                                                 5)LANGUAGES(SANSKRIT/HINDI/FRENCH/LOCAL DIALECT)
+                                                 6)BIO TECHNOLOGY
+                            </p>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+                
+
+            </div>
+           
+
+        </section>
+         <section id="commerce" class="text-center py-5" style="background-color: #eee;">
+
+            
+            <div class="container">
+
+                
+                <h2 class="h1-responsive font-weight-bold mb-5" style="display: inline-block;">COMMERCE</h2>
+                
+                <p class="grey-text w-responsive mx-auto mb-5">Commerce is a popular choice among students after passing 10th standard. ... If you are good with numbers, good at analyzing and dealing with large chunks of data, have a taste in finance and economics, commerce stream will suit you. Students studying under Commerce stream have a thoughtful outlook on the outside world.
+                The commerce stream after class 10 is quite a popular choice in India, as most students feel that the stream offer them a wide arena carrier options to pursue after class 12, that would bring them both success as well as financial security easily. </p>
+
+                
+                <div class="row text-center">
+
+                    
+                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                    
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="economics1.png" alt="sample image" width="400" height="300">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;" >ECONOMICS</h4>
+                            <p class="grey-text" >Mathematics is a science of numbers and is often the most hated subject for students, and sometimes the most loved with use in money transactions and applications even in COMMERCE. As a subject, Math focuses on the concepts of quantity, change, structure, and space.
+
+                            At a Class 11-12 level, you would learn about the principles of underlying processes and skills, identify the flow of reason while solving a problem or proving a result, and learn how to apply acquired skills to solve problems by more than one method. If you pursue the Medical (PCB) stream, you can also take on Mathematics as an optional subject.
+                            </p>
+                           
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="accounts1.png" alt="sample image" width="400" height="300">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;" >ACCOUNTANCY</h4>
+                            <p class="grey-text" >In any business or corporation, it’s important to analyze the economic success of the endeavour. The field of Accountancy or Accounting involves the measurement, processing and communication of the financial data of a particular business, corporation or other economic entity. Accountancy measures the results of the economic activities of an organization, communicating it to users such as investors, creditors, regulators and management.
+
+                            The study of Accountancy in Class 11-12 will provide you with a comprehensive understanding of accounting and basic accounting concepts. You will learn about emerging areas in the preparation of financial statements, expenditure, how to design an accounting database and how to record business transactions.
+                            </p>
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-4 col-md-6">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="business1.png" width="400" height="300" alt="COMPUTER SCIENCE">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;" >BUSINESS STUDIES</h4>
+                            <p class="grey-text" >The subject of Business Studies focuses on analyzing, evaluating and responding to the changes that affect businesses and the business environment, including social, political, economic and legal influences. At a Class 11-12 level, Business Studies will provide you with a basic knowledge of the business world, helping you understand the framework in which a business operates and the business processes involved. You will also learn about the interdependent nature of businesses and the theoretical foundation of managing operations of a business firm.
+                            </p>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+                
+
+            </div>
+           
+
+        </section>
+
+        
+        <section id="arts" class="text-center py-5" style="background-color: #eee;">
+
+            
+            <div class="container">
+
+                
+                <h2 class="h1-responsive font-weight-bold mb-5" style="display: inline-block;">ARTS</h2>
+                
+                <p class="grey-text w-responsive mx-auto mb-5">Defining humanities is a difficult task. However, it can be said in a few words that it is an academic discipline which deals with the study of the ‘Human Condition’, utilizing methodologies that are usually analytical, critical or speculative.
+
+                The wide range of subjects that come under the umbrella term of Humanities range from history, languages, literature, law, philosophy, religion, performing arts, anthropology, communication, sociology, psychology and many more. </p>
+
+                
+                <div class="row text-center">
+
+                    
+                    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                    
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="psychology1.png"  width="400" height="300" alt="MATHEMATICS">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                    
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;" >PSYCHOLOGY</h4>
+                            <p class="grey-text" >Humanities as a whole are all about the functioning of human society, systems and social relationships. Psychology, very much a social science, involves understanding how and why people behave in groups and social settings. Therefore, the understanding of Psychology, when combined with other humanities subjects, like History, Political Science, Sociology, etc. can give you a broader perspective about society and its functioning.
+
+                            This understanding can be applied even when you build a career in the field, with various sub-fields to choose from, Social Psychology, Counselling Psychology, Organizational Psychology, and so on.
+                            </p>
+                           
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="hs1.png" width="400" height="300" alt="BIOLOGY">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;" >HOME SCIENCE</h4>
+                            <p class="grey-text" >Home Science is a viable option for study for humanities students too. While as a humanities student you will not be eligible for a B.Sc (Hons.) course in Home Science, you can still get into a regular program such as a B.Sc or B.A in Home Science. As a part of this course, you’ll study a variety of areas and disciplines like sociology, economics, resource management, design, community living, hygiene, food, nutrition, etc. With a degree in this field, you can work in sectors such as family and child welfare organizations, schools, hospitality, fashion journalism, retail, etc. in various roles.
+
+ 
+                            </p>
+                            
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="col-lg-4 col-md-6">
+                        
+                        <div class="view overlay rounded z-depth-1">
+                            <img src="ch1.png"  width="400" height="300" alt="COMPUTER SCIENCE">
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <!--Excerpt-->
+                        <div class="card-body pb-0">
+                            <h4 class="font-weight-bold my-3" style="display: inline-block;">COMPUTERS WITH HUMANITIES</h4>
+                            <p class="grey-text" >Commerce or Humanities students interested in computers and increasing their knowledge of programming can opt for Informatics Practices as their 5th subject. You can build a career in this field with a Bachelor’s degree in Computer Applications (BCA), followed by a Master’s degree in Computer Applications (MCA).
+
+                            Topics covered under informatics practices course includes understanding the basic of computers and its application, database management system, programming languages such as SQL, Oracle, JAVA for problem-solving, e-learning, etc.
+                            </p>
+                            
+                        </div>
+                    </div>
+                   
+                </div>
+                
+
+            </div>
+           
+
+        </section>
+        
+       
+        <section id="gallery" class="text-center py-5">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold mb-5">BE RIGHTFUL IN CHOOSING YOUR STREAM(DONT BE IN  HASTE, CHOOSE WISELY!!)</h2>
+                <!-- Section description -->
+                <p class="grey-text w-responsive mx-auto mb-5">Normally, students are unaware of the fact that 10th is the initial and crucial stage of building a career. They take the decision with puzzled and ambiguous mind and end up selecting a wrong stream thereby opening the door to worst consequences in the long-term career prospects.
+
+                Choosing the right stream has a long lasting impact on a student’s future. It has been often noticed student start hating their subject after some time or quit their subject midway or start feeling frustrated about the wrong move or decision.</p>
+
+                <ul class="gallery_box">
+    <li>
+        <img src="career1.png" height="400">
+        <div class="box_data">
+            
+        </div>
+    </li>
+        <li>
+        <img src="career2.png">
+        <div class="box_data">
+            
+        </div>
+    </li>
+        <li>
+        <img src="science2.png" height="400">
+        <div class="box_data">
+           
+        </div>
+    </li>
+            <li>
+        <img src="arts2.png" >
+        <div class="box_data">
+          
+        </div>
+    </li>
+            <li style="position: relative;
+    top: -134px;">
+        <img src="commerce2.png">
+        <div class="box_data">
+            
+        </div>
+    </li>
+            <li>
+        <img src="career3.png">
+        <div class="box_data">
+            
+        </div>
+    </li>
+    
+</ul>
+
+
+</div>
+<!-- Container -->
+
+</section>
+<!--Section: gallery-->
+
+
+         
+       
+<!--Section: contact-->
+<section id="contact" class="py-5" style="background-color: #eee;">
+
+    <div class="container">
+
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center mb-5">Contact us</h2>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto mb-5">In case you are confused as to what is the right subjects you wish to choose, please feel free to contact us and we are looking forward to helping you !! </p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-9 mb-md-0 mb-5">
+
+                <form>
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-name" class="form-control">
+                                <label for="contact-name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-email" class="form-control">
+                                <label for="contact-email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="contact-Subject" class="form-control">
+                                <label for="contact-Subject" class="">Subject</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="contact-message">Your message</label>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-purple btn-md">Send</a>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+
+</section>
+<!--Section: contact-->
+
+</main>
+<!--Main layout-->
+
+<!-- Footer -->
+<footer class="page-footer font-small pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1">
+                    <i class="fab fa-facebook"> </i>
+                </a>
+            </li>
+            
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1">
+                    <i class="fab fa-google-plus"> </i>
+                </a>
+            </li>
+            
+            <li class="list-inline-item">
+                <a class="btn-floating btn-dribbble mx-1">
+                    <i class="fab fa-dribbble"> </i>
+                </a>
+            </li>
+        </ul>
+        
+
+    </div>
+
+    <div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    
+
+
+</footer>
+
+</body>
+</html>
